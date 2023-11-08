@@ -1,3 +1,4 @@
-@media and (max-width:700px){
-    
+#mypic{
+    width: auto;
+    max-height: 400px;
 }
