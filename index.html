@@ -11,7 +11,7 @@
         <!-- -->
         <header>
             
-            <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
+            <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top fixed-top">
                 <a class="navbar-brand">YUSUF USMAN</a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -19,28 +19,28 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="navbar-item">
-                            <a class="nav-link">Yusuf</a>
+                            <a href="#hero" class="nav-link">Hero</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link">Hero</a>
+                            <a href="#work" class="nav-link">Work</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link">Work</a>
+                            <a href="#skills" class="nav-link">Skills</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link">Skills</a>
+                            <a href="#about" class="nav-link">About</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link">About</a>
+                            <a href="#resume" class="nav-link">Resume</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-
+        <hr>
          <!-- -->
         <div class="container-fluid">
-            <div class="container-fluid my-5">
+            <div class="container-fluid my-5" id="hero">
 
                 <div class="p-5 text-center bg-body-tertiary rounded-3">
                     <img class="img-fluid rounded-3" src="//placehold.co/600x400" />
@@ -57,8 +57,8 @@
                     </div>
                 </div>
             </div>
-
-            <section class="container text-center">
+            <hr>
+            <section class="container text-center" id="work">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="card">
@@ -155,10 +155,10 @@
                     </div>
                 </div>
             </section>
-
-
+            <hr>
             <section class="container text-center" id="skills">
-                <ul class="list-group">
+                <ul class="list-group ">
+                    <h5 class="mb-1">Skills</h5>
                     <li class="list-group-item">HTML</li>
                     <li class="list-group-item">CSS</li>
                     <li class="list-group-item">Git</li>
@@ -181,9 +181,43 @@
                     <li class="list-group-item">Project Demonstration and Storytelling</li>
                 </ul>
             </section>
+
+            <hr>
+
+            <section class="container text-center" id="resume">
+                <h1 class="">
+                    My Resume
+                </h1>
+                <a href="https://docs.google.com/document/d/1ouvs6w6WO0nzHpaCxUiqQlvWyg_81gPv/edit?usp=drive_link&ouid=115870189255900106138&rtpof=true&sd=true" class="">Resume</a>
+            </section>
         </div>
          <!-- -->
-        <footer class="container text-center">
+        <footer class="container-fluid text-center">
+            <nav class="navbar navbar-light bg-light navbar-expand-md">
+                <a class="navbar-brand">YUSUF USMAN</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="navbar-item">
+                            <a href="#hero" class="nav-link" id="hero">Hero</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#work" class="nav-link" id="work">Work</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#skills" class="nav-link" id="skills">Skills</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#about" class="nav-link" id="about">About</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             &copy; 2023
         </footer>
         <!-- <script src=""></script> -->
