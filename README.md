@@ -3,6 +3,14 @@
 ## Description
 A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. This repository is designed to showcase a portfolio of my work.
 
+## Project Link & Screenshots
+Deployed application url - https://y-usman.github.io/Bootstrap-Portfolio/
+
+![Deployed app screenshot](images/app_screenshot_1.png)
+![Deployed app screenshot](images/app_screenshot_2.png)
+![Deployed app screenshot](images/app_screenshot_3.png)
+![Deployed app screenshot](images/app_screenshot_4.png)
+
 ## Installation
 
 ## Credits
