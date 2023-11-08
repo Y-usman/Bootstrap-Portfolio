@@ -2,3 +2,8 @@
     width: auto;
     max-height: 400px;
 }
+
+.img-thumbnail{
+    width:30px;
+    height: auto;
+}
